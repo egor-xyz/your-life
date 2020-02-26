@@ -1,0 +1,25 @@
+.root {
+  padding: 20px;
+}
+.input {
+  color: #fff;
+  line-height: 1;
+  & + & {
+    margin-left: 20px;
+  }
+  span {
+    vertical-align: middle;
+    display: inline-block;
+  }
+  input {
+    font-size: 40px;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    background-color: #777;
+    padding: 0;
+    border: none;
+    color: #fff;
+    margin-left: 6px;
+  }
+}
